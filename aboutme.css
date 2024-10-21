@@ -1,0 +1,89 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	width: 960px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 15px;
+	background-color: floralwhite;
+	color:#08ABBA;
+	line-height: 2;
+	font-family:"Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+
+.title {
+	text-align: center
+}
+
+nav {
+    background-color: #FA894C;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+	border-radius: 30px;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+	padding: 0;
+    margin: 0;
+	justify-content: center;
+}
+
+nav a:link, nav a:visited {
+    font-size: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+	spadding: 5px;
+}
+nav a:hover {
+    background-color: antiquewhite;
+    color: #FBA06F;
+    border-radius: 4px;
+}
+.involve {
+	background-color:#B5E3FD;
+	border-radius: 30px;
+}
+
+h1{
+	font-size: 35px;
+}
+
+h2 {
+ 	padding-top:10px;
+	padding-bottom: 10px;
+	text-align: center;
+	font-size: 25px;
+}
+h3 {
+	padding-top:10px;
+	padding-bottom: 10px;
+	font-size: 20px
+}
+
+p{
+	font-size: 20px;
+}
+ul {
+	list-style: georgian;
+}
+.descript{
+	text-align: center;
+}
+.nadia {
+    float: right;
+	width: 350px;
+	height: auto;
+	border-radius: 20px;
+}
+.footer{
+    background-color:#FA894C;
+    text-align: center;
+    padding: 20px 0 20px;
+    font-size: 30px;
+    color: #F9F7F3;
+	margin-top: 30px
+}

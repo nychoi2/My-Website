@@ -1,0 +1,95 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	width: 960px;
+	padding: 10px;
+	margin: 0 auto;
+	text-align: left;
+	font-size: 15px;
+	background-color: floralwhite;
+	color: #08ABBA;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+.title {
+	text-align: center
+}
+
+nav {
+    background-color:#FA894C;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+	border-radius: 30px;
+}
+nav ul {
+    display: flex;
+    gap: 50px;
+    list-style-type: none;
+	padding: 0;
+    margin: 0;
+	justify-content: center;
+}
+
+nav a:link, nav a:visited {
+    font-size: 30px;
+    text-decoration: none;
+    color: antiquewhite;
+	padding: 5px;
+}
+nav a:hover {
+    background-color: antiquewhite;
+    color: #FBA06F;
+    border-radius: 4px;
+}
+
+h1{
+	font-size: 35px;
+}
+
+h2{
+	font-size: 30px;
+	text-align: center;
+	text-decoration: underline;
+	text-decoration-style:solid;
+	text-decoration-color: #FBA06F;
+	text-underline-offset: 10px;
+	padding-bottom: 20px;
+}
+
+h3{
+	font-size: 25px;
+}
+
+p{
+	font-size: 20px;
+	line-height: 2;
+}
+
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.portfolio-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.portfolio-grid img:hover {
+    transform: scale(1.05);
+}
+
+.footer{
+    background-color:#FA894C;
+    text-align: center;
+    padding: 20px 0 20px;
+    font-size: 30px;
+    color: #F9F7F3;
+	margin-top: 30px;
+}
